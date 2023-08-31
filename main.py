@@ -8,6 +8,9 @@ import streamlit as st
 import tempfile
 import os
 
+from streamlit_extras.buy_me_a_coffee import button
+button(username="sooni.roh", floating=True, width=221)
+
 # 제목
 st.title("ChatPDF")
 st.write("---")
